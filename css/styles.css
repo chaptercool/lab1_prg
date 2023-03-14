@@ -1,0 +1,45 @@
+header{
+    position: sticky;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 2px #aaa;
+    z-index: 100;
+}
+
+header nav{
+    display: block;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 30px;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+article section{
+    display: block;
+    padding: 0  120px;
+    font-size: 20px;
+}
+
+article{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 150px 120px;
+}
