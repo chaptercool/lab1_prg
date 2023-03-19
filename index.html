@@ -4,32 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Moja strona internetowa</title>
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <header>
-        <img src="/Zrzut ekranu (2).png" alt="wsiz-logo">
+    <header id="#top" class="header1">
+        <h1 class="headname">Yaroslav Haivoronskyi - strona informacyjna</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html" class="homelink"><b>Strona główna</b></a></li>
+                <li><a href="serialy/index.html" class="otherlinks">Najleprsze serialy</a></li>
+                <li><a href="https://github.com/chaptercool" class="otherlinks">Mój GitHub</a></li>
+                <li><a href="/ksiazki/index.html" class="otherlinks">Polecane książki</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="https://moodle.wsiz.edu.pl/">Moodle</a></li>
-            <li><a href="https://github.com/chaptercool"><b>Mój GitHub</b></a></li>
-            <li><a href="https://wu.wsiz.edu.pl/">Wirtualna uczelnia</a></li>
-        </ul>
-    </nav>
-
     <main>
+        <aside>
+            <h2>Menu</h2>
+            <a href="/ksiazki/index.html">Polecane książki</a><br />
+            <a href="/serialy/index.html">Najleprsze serialy</a>
+        </aside>
+        <section class="introduction">
+            <h2>Moja osobista strona internetowa</h2>
+            <p>Witam! Mam na imię Yaroslav i mieszkam w Rzeszowie.</p>
+            <img src="/main.jpeg" alt="Stary komputer" width="400px" height="300px" />
+        </section>
         <section>
-            <h1>Zadanie pierwsze</h1>
-            <h2>Yaroslav Haivoronskyi</h2>
             <h3>Miejsce mieszkania</h3>
             <p>Rzeszów</p>
             <h3>Uczelnia</h3>
-            <p><b>Wyższa szkoła informatyki i zarządzania</b></p>
-            <h4>Kierunek</h4>
+            <p>Wyższa szkoła informatyki i zarządzania</p>
+            <h3>Kierunek</h3>
             <p>Informatyka</p>
-            <h3>Ogólna informacja</h3>
+            <h2>Ogólna informacja</h2>
             <p>Mieszkałem w mieście Chuguiv. <i>Zakończylem liceum w 2022 roku.</i></p>
             <h3>Moje hobby</h3>
             <ul>
@@ -39,8 +47,6 @@
             </ul>
         </section>
         <section>
-            <h1>Zadanie drugie</h1>
-
             <h2>Lista zakupów</h2>
             <ul>
                 <li>Jabłki</li>
@@ -49,34 +55,32 @@
                 <li>Chleb</li>
             </ul>
             <article>
-                <header>
+                <header class="article-element">
                     <h2>Lista zadań</h2>
                 </header>
-                <main>
+                <main class="article-elenent">
                     <ol type="I">
                         <li>Dorobić laboratorium w domu</li>
                         <li>Posprzątać mieszkanie</li>
                         <li>Kupić produkty</li>
                     </ol>
                 </main>
-                <footer>
-                    koniec artykułu
+                <footer class="article-element">
+                    Koniec listy
                 </footer>
             </article>
             
         </section>
         
         <section>
-            <h1>Zadanie trzecie</h1>
             <h2>Najlepsze linki które mam</h2>
             <ol type="1">
-                <li><a href="/serialy/index.html">Najleprsze serialy</a></li>
-                <li><a href="https://wsiz.edu.pl"></a>Moja uczelnia!</li>
+                <li><a href="/serialy/index.html" class="otherlinks">Najlepsze serialy</a></li>
+                <li><a href="/ksiazki/index.html" class="otherlinks">Książki, które polecam do przeczytania</a></li>
             </ol>
         </section>
         
         <section>
-            <h1>Zadanie Czwarte</h1>
             <table border="1">
                 <tr>
                     <td>2011 - obecnie</td>
@@ -93,10 +97,10 @@
                     <td>Szkoła podstawowa nr. 9</td>
                 </tr>
             </table>
+            <br />
         </section>
         
         <section>
-            <h1>Zadanie czwarte, podzadanie pierwsze</h1>
             <table border="1" width="100" height="100">
                 <tr>
                     <td></td>
@@ -126,24 +130,16 @@
         </section>
         
         <section>
-           <h1>Zadanie piąte</h1>
-           <img src="/2815575-Co-ma-wspolnego-kot-z-zyrafa-Odpowiedz-w-artykule.jpg" alt="cat-girraffe" height="170" width="150" /> 
+            <figure>
+                <img src="/2815575-Co-ma-wspolnego-kot-z-zyrafa-Odpowiedz-w-artykule.jpg" alt="cat-girraffe" height="170" width="150" />
+                <br />
+                <figcaption>Czy ktoś widział w swoim życiu takiego zwierzaka?</figcaption>
+            </figure>
+
         </section>
 
-        <aside>
-            <h1>Zadanie szóste</h1>
-            velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan 
-            in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at 
-            varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet 
-            bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus 
-            quam pellentesque nec nam aliquam sem et tortor consequat id porta nibh venenatis cras 
-            sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar 
-            elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla at 
-            volutpat diam ut venenatis tellus in metus
-        </aside>
-
         <section>
-            <h1>Zkontaktuj ze mną!</h1>
+            <h2>Zkontaktuj ze mną!</h2>
             <form action="" method="get">
                 <label>Twój numer: <input type="number"></label>
                 <input type="submit" value="Prześlij">
@@ -152,8 +148,8 @@
     </main>
 
     <footer>
-        <br>
-        <i>Koniec tej strony</i>
+        <h6>Wszelkie prawa zastrerzone (c)2023</h6>
+        <a href="#top" class="gora">Do góry strony</a>
     </footer>
 
 </body>
